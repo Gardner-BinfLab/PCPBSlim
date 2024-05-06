@@ -1,0 +1,12 @@
+Software,Bins,UpperY
+stopFree,60,0.1
+CPC2,60,0.08
+LGC,100,0.15
+CPPred,250,0.15
+RNAcode,60,0.17
+PhyloCSF,400,0.2
+tcode,120,0.08
+RNAsamba,60,0.1
+bioseq2seq,60,0.15
+randScore,60,0.1
+PLEK,120,0.11
