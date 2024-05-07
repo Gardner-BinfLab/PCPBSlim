@@ -32,21 +32,25 @@ You will now have access to the results files.
 
 
 # File and folder guide
-
+```
 /compiledResults
+```
 - Compiled results output from software tools run in the pipeline
-
+```
 /controls
+```
 - Positive and negative alignments and sequences used for benchmarking
-
-/scripts
-    /main
-    - Bash scripts for setting up and running the benchmarks.
-    - Generally run in order from A00 to D00
-    - Special cases are Txx for timing of tools
-
-    /R
-    - R project files that were used for result interpretiation
-
-    /support
-    - Collection of various helper scripts
+```
+/scripts/main
+```
+- Bash scripts for setting up and running the benchmarks.
+- Generally run in order from A00 to D00
+- Special cases are Txx for timing of tools
+```
+scripts/R
+```
+- R project files that were used for result interpretiation
+```
+scripts/support
+```
+- Collection of various helper scripts
