@@ -9,15 +9,8 @@ archives["scripts"]="scripts/scripts.tar.gz"
 # Loop through each directory-archive pair
 for dir in "${!archives[@]}"; do
     archive="${archives[$dir]}"
-    
-    # Check if the directory exists
-    if [ -d "$dir" ]; then
-        echo "Directory '$dir' already exists."
-    else
-        echo "Directory '$dir' not found. Creating directory and extracting from archive '$archive'..."
-        # Create the parent directory
-        mkdir -p "$(dirname "$dir")"
-        # Extract the archive into the parent directory
-        tar -xzvf "$archive" -C "$(dirname "$dir")"
-    fi
+
+    mkdir -p "$(dirname "$dir")"
+    # Extract the archive into the parent directory
+    tar -xzvf "$archive" -C "$(dirname "$dir")"
 done
