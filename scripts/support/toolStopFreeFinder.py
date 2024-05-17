@@ -1,7 +1,7 @@
 import sys
 # stopFree - identifies the longest continuous segment of a DNA sequence
 # that doesn't contain any "stop signals," considering both the original
-# and its mirror-image counterpart.
+# and its reverse complement.
 
 # Function to calculate the reverse complement of a DNA sequence
 def reverse_complement(sequence):
