@@ -1,6 +1,3 @@
-data/**
-results/**
-compiledResults/**
 scripts/R/.Rproj.user
 scripts/R/.Rhistory
 scripts/R/.RData
