@@ -33,24 +33,23 @@ You will now have access to the results files.
 
 # File and folder guide
 ```
-/compiledResults
+/results
 ```
-- Compiled results output from software tools run in the pipeline
+- all_scores.csv - Every score from each tool.
+- Compiled results output from software tools run in the pipeline.
 ```
-/controls
+/data/controls
 ```
-- Positive and negative alignments and sequences used for benchmarking
+- Positive and negative alignments and sequences used for benchmarking.
 ```
 /scripts/main
 ```
-- Bash scripts for setting up and running the benchmarks.
-- Generally run in order from A00 to D00
-- Special cases are Txx for timing of tools
+- Bash scripts that were used for setting up and running the benchmarks.
 ```
 scripts/R
 ```
-- R project files that were used for result interpretiation
+- R project files that were used for result interpretiation.
 ```
 scripts/support
 ```
-- Collection of various helper scripts
+- Collection of various helper scripts used.
