@@ -42,6 +42,14 @@ You will now have access to the results files.
 ```
 - Positive and negative alignments and sequences used for benchmarking.
 ```
+/data/controls/sequences/clade/type
+```
+- Sequences separated into each clade (animalia, fungi, plantae) separated into each type (coding, intergenic, shuffled)
+```
+/data/controls/alignments/clade/type
+```
+- Alignments separated into each clade (animalia, fungi, plantae) separated into each type (coding, intergenic, shuffled)
+```
 /scripts/main
 ```
 - Bash scripts that were used for setting up and running the benchmarks.
