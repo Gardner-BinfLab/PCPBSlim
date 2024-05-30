@@ -21,10 +21,10 @@ Now clone the repository to the project directory.
 git clone https://github.com/Gardner-BinfLab/PCPBSlim PCPBSlim
 ```
 
-This will download the benchmarking pipline and curated paper data and results.
+This will download the curated paper data and results.
 Run the setup.sh script which will decompress the results and controls.
 ```
-cd PCBResults
+cd PCPBSlim
 ./setup.sh
 ```
 
