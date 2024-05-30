@@ -1,24 +1,24 @@
 # Protein Coding Potential Benchmark Results
 
-This repository has been created for the purpose of sharing the final results, controls, and relevant software pipline for the research paper: <insert link>
+This repository has been created for the purpose of sharing the tool prediction scores, control sequences and alignment for the research paper: https://doi.org/10.1101/2024.05.16.594598
 
-The research paper pertians to benchmarking of protein coding potential tools.
+The research paper 'Flawed machine-learning confounds coding sequence annotation' pertians to benchmarking of protein coding potential tools.
 
-While it's possible to run the scripts in this repository, it's not recommended without further setup. If you want to run the pipeline to verify the results in the research paper, you will need to follow the instructions in the repository here <insert verificationPipelineRepository> which contains all the necessary information and data to reproduce the results.
+If you want to run the pipeline to verify the results in the research paper, you will need to follow the instructions in the repository here https://github.com/Gardner-BinfLab/PCPBFull which contains all the necessary scripts, information and data to reproduce the results.
 
-If you want to run your own protein coding potential calculator benchmarks using the pipeline, see here for an updated and useable standalone version <insert standaloneRepository>
+If you want to run your own protein coding potential calculator benchmarks using the pipeline, see here for an updated and useable standalone version:(not yet available)
 
 
 # Simple Access Instructions
 
 To access the project and results, create a local project directory. For example:
 ```
-mkdir PCBResults
+mkdir PCPBSlim
 ```
 
 Now clone the repository to the project directory.
 ```
-git clone https://github.com/Gardner-BinfLab/PCPBResults PCPBResults
+git clone https://github.com/Gardner-BinfLab/PCPBSlim PCPBSlim
 ```
 
 This will download the benchmarking pipline and curated paper data and results.
@@ -49,15 +49,3 @@ You will now have access to the results files.
 /data/controls/alignments/clade/type
 ```
 - Alignments separated into each clade (animalia, fungi, plantae) separated into each type (coding, intergenic, shuffled)
-```
-/scripts/main
-```
-- Bash scripts that were used for setting up and running the benchmarks.
-```
-scripts/R
-```
-- R project files that were used for result interpretiation.
-```
-scripts/support
-```
-- Collection of various helper scripts used.
