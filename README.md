@@ -1,6 +1,6 @@
 # Protein Coding Potential Benchmark Results
 
-This repository has been created for the purpose of sharing the tool prediction scores, control sequences and alignment for the research paper: https://doi.org/10.1101/2024.05.16.594598
+This repository has been created for the purpose of sharing the tool prediction scores, control sequences and alignments for the research paper: https://doi.org/10.1101/2024.05.16.594598
 
 The research paper 'Flawed machine-learning confounds coding sequence annotation' pertians to benchmarking of protein coding potential tools.
 
